@@ -7,5 +7,5 @@ function deleteFromObjectByKey(object, key) {
   delete object.key;
 }
 function updateObjectWithKeyAndValue(object, key, value){
-  return obj
+  return Object.assign
 }
